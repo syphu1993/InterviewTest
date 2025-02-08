@@ -1,0 +1,55 @@
+@import "./variables.scss";
+
+body {
+  background-color: $main-bgr;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.large-title {
+  font-family: $font-inter;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+}
+
+.medium-title {
+  @extend .large-title;
+  font-size: 34px;
+  line-height: 40.8px;
+}
+
+.small-text {
+  font-family: $font-inter;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: 22px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+  // hidden element on mobile
+  .hidden-480 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  // hidden element on destop
+  .hidden-desktop {
+    display: none !important;
+  }
+}
