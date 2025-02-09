@@ -2,7 +2,6 @@
 @import "../../global.scss";
 
 .box-code {
-  position: absolute;
   width: 520px;
   height: 350px;
   bottom: 140px;
@@ -20,6 +19,7 @@
   font-weight: 250;
   line-height: 18.68px;
   letter-spacing: 0%;
+  text-align: start;
 }
 
 .code-comment {

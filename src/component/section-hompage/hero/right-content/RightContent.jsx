@@ -23,6 +23,8 @@ const RightContent = () => {
       <BoxCode
         contentCode={contentCode}
         widthContent={264}
+        position={'absolute'}
+        backgroundTool={'#F8F5F5'}
         listLineLoaders={[]}
       />
       <img className="img-man" src={imageMan} alt="" />

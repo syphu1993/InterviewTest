@@ -2,9 +2,12 @@
 @import "../../../global.scss";
 
 .loader {
-    background-color: $main-bgr;
-    width: 100%;
-    height: 26px;
-    border-radius: 40px;
-    margin-top: 6px;
+  background-color: $main-bgr;
+  width: 100%;
+  height: 26px;
+  border-radius: 40px;
+  margin-top: 6px;
+  @media screen and (max-width: 480px) {
+    height: 13px;
+  }
 }

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const ToolCode = ({ background, icons }) => {
   return (
-    <div className="tool-code flex-column space-between" style={background}>
+    <div className="tool-code flex-column space-between" style={{ background: background }}>
       <div className="flex-column item-center list-tools">
         {icons.map((item) => (
           <img key={item.src} className="icon-tool" src={item.src} alt="" />

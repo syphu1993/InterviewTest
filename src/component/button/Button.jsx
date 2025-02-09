@@ -1,5 +1,4 @@
 import iconVector from "../../assets/icons/vector-btn.png";
-import PropTypes from "prop-types";
 
 import "./button.scss";
 const Button = ({
@@ -9,7 +8,8 @@ const Button = ({
   background,
   content,
   isIcon,
-  padding,
+  paddingX,
+  paddingY,
   fontSize,
   color,
 }) => {
@@ -17,11 +17,11 @@ const Button = ({
     <button
       className="btn flex-row item-center space-between "
       style={{
-        width: `${width}px`,
+        width: width,
         height: `${height}px`,
         borderRadius: `${radius}px`,
         background: background,
-        padding: `${padding}px`,
+        padding: `${paddingY}px ${paddingX}px`,
       }}
     >
       <span style={{ fontSize: `${fontSize}px`, color: color }}>{content}</span>
@@ -30,24 +30,4 @@ const Button = ({
   );
 };
 
-Button.propTypes = {
-  width: PropTypes.number.isRequired,
-  height: PropTypes.number.isRequired,
-  radius: PropTypes.number,
-  background: PropTypes.string,
-  content: PropTypes.string.isRequired,
-  isIcon: PropTypes.bool,
-  padding: PropTypes.number,
-  fontSize: PropTypes.number,
-  color: PropTypes.string,
-};
-
-Button.defaultProps = {
-  radius: 0,
-  background: "transparent",
-  isIcon: false,
-  padding: 10,
-  fontSize: 16,
-  color: "#000",
-};
 export default Button;

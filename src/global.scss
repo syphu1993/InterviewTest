@@ -4,19 +4,29 @@ body {
   background-color: $main-bgr;
   font-size: 22px;
   line-height: 26px;
+  @media screen and (max-width: 480px) {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 .large-title {
   font-family: $font-inter;
   font-weight: 700;
   font-size: 48px;
-  line-height: 57.6px;
+  line-height: 57px;
+  @media screen and (max-width: 480px) {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+  }
 }
 
 .medium-title {
   @extend .large-title;
   font-size: 34px;
-  line-height: 40.8px;
+  line-height: 40px;
 }
 
 .small-text {
