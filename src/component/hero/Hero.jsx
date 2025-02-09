@@ -1,13 +1,16 @@
 import "./hero.scss";
-import Header from "../header/Header";
+import LeftContent from "./left-content/LeftContent";
+import RightContent from "./right-content/RightContent";
+
+
+
 
 const Hero = () => {
+  
   return (
     <div className="hero-section">
-        <div className="hero-left">
-            <Header />
-        </div>
-        <div className="hero-right"></div>
+      <LeftContent />
+      <RightContent />
     </div>
   );
 };

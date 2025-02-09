@@ -35,6 +35,14 @@ body {
   align-items: center;
 }
 
+.item-start {
+  align-items: start;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -42,14 +50,14 @@ body {
 
 @media screen and (max-width: 480px) {
   // hidden element on mobile
-  .hidden-480 {
+  .hidden-sm {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 481px) {
   // hidden element on destop
-  .hidden-desktop {
+  .hidden-lg {
     display: none !important;
   }
 }
