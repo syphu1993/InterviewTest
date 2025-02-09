@@ -20,8 +20,8 @@ const Description = () => {
   `;
   const listLoaders = [
     { id: 1, width: "80%" },
-    { id: 1, width: "40%" },
-    { id: 1, width: "100%" },
+    { id: 2, width: "40%" },
+    { id: 3, width: "100%" },
   ];
   return (
     <div className="container-description flex-row space-between">

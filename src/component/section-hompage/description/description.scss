@@ -1,7 +1,11 @@
+@import "../../../variables.scss";
+@import "../../../global.scss";
+
 .container-description {
   width: 100%;
   height: auto;
-  padding: 176px 110px 176px 127px;
+  padding: 160px 110px 160px 127px;
+  background-color: $white-bgr;
   .cover-box {
     position: relative;
     .cover-img {
