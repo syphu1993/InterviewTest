@@ -1,7 +1,7 @@
-import Button from "../../button/Button";
+import Button from "../../../button/Button";
 import Header from "../../header/Header";
-import iconCode from "../../../assets/icons/icon-code.png";
-import iconLogo from "../../../assets/images/logo-hero.png";
+import iconCode from "../../../../assets/icons/icon-code.png";
+import iconLogo from "../../../../assets/images/logo-hero.png";
 
 const LeftContent = () => {
     return (

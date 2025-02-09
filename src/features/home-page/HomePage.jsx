@@ -1,5 +1,5 @@
-import Hero from '../../component/hero/Hero';
-import Footer from '../../component/footer/Footer';
+import Footer from './../../component/section-hompage/footer/Footer';
+import Hero from '../../component/section-hompage/hero/Hero';
 
 const HomePage = () => {
   return (

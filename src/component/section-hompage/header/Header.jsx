@@ -1,6 +1,6 @@
 import "./header.scss";
-import iconArrow from "../../assets/icons/icon-header.png";
-import DropdownLanguages from "../dropdown-languages/DropdownLanguage";
+import iconArrow from "../../../assets/icons/icon-header.png";
+import DropdownLanguages from "../../dropdown-languages/DropdownLanguage";
 
 const Header = () => {
   const listItem = ["Tutorials", "Case studies", "Resources"];

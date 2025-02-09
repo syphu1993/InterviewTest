@@ -1,8 +1,8 @@
-import imageMan from "../../../assets/images/img-man.png";
-import imageLine from "../../../assets/images/line-z.png";
-import imageTriangle from "../../../assets/images/icon-park.png";
-import iconLive from "../../../assets/icons/live-icon.png";
-import BoxCode from "../../box-code/BoxCode";
+import imageMan from "../../../../assets/images/img-man.png";
+import imageLine from "../../../../assets/images/line-z.png";
+import imageTriangle from "../../../../assets/images/icon-park.png";
+import iconLive from "../../../../assets/icons/live-icon.png";
+import BoxCode from "../../../box-code/BoxCode";
 const RightContent = () => {
   const contentCode = `
     <div>
